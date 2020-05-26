@@ -1,0 +1,14 @@
+public class array {
+public static void main(String[] args) {
+  printYearsandDays(-525600);
+}
+public static void printYearsandDays(long minutes){
+   if(minutes <0){
+     System.out.println("invalid value");
+   }
+   else{
+     long years =minutes/525600;
+     System.out.println(years + "years");
+   }
+}
+}
